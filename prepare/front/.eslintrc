@@ -13,5 +13,8 @@
   },
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "plugins": ["import", "react-hooks"],
-  "rules": {}
+  "rules": {
+    "quotes" : ["error", "single", { "avoidEscape" : true}],
+    "indent" : ["error", 2]
+  }
 }
